@@ -67,8 +67,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W    &kp E         &kp R         &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&mt LEFT_SHIFT A  &kp S    &kp D         &kp F         &kp G        &kp LS(LG(S))        &lt_to_layer_0 6 BACKSPACE  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Q             &kp W    &kp E         &kp R         &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_SHIFT A  &kp S    &kp D         &kp F         &kp G        &kp LS(LG(S))        &lt_to_layer_0 6 BACKSPACE  &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
 &mt LCTRL Z       &kp X    &kp C         &kp V         &kp B        &kp DEL              &kp BACKSPACE               &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp TAB           &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &mt RCTRL SPACE      &mt RIGHT_SHIFT ENTER       &lt 2 ENTER                             &lt 4 DEL
             >;
@@ -78,8 +78,8 @@
 
         FUNCTION {
             bindings = <
-&kp F1                   &kp F2        &kp F3        &kp F4        &kp F5                                &kp F6             &kp F7         &kp F8        &kp F9            &lt 5 F10
-&mt LEFT_SHIFT NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &trans  &kp NUMBER_6       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
+&kp F1                   &kp F2        &kp F3        &kp F4        &kp F5                                &kp F6             &kp F7         &kp F8        &kp F9            &kp F10
+&mt LEFT_SHIFT NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &trans  &kp NUMBER_6       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9      &lt 5 N0
 &mt LCTRL F11            &kp F12       &kp EQUAL     &kp INT_YEN   &kp LEFT_BRACKET  &trans      &trans  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SEMI      &kp SINGLE_QUOTE  &kp INT_RO
 &trans                   &trans        &trans        &trans        &trans            &trans      &trans  &trans                                                            &trans
             >;
@@ -88,7 +88,7 @@
         NUM {
             bindings = <
 &none           &none               &none             &kp LG(V)       &kp PLUS                            &kp LA(RIGHT)   &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP  &lt 5 DELETE
-&kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &none             &kp LA(RIGHT)   &kp ASTERISK    &trans      &trans  &kp LA(LEFT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &none
+&kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &none             &kp LA(RIGHT)   &kp ASTERISK    &trans      &trans  &kp LA(LEFT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &trans
 &kp LCTRL       &kp CAPS            &kp INT_MUHENKAN  &kp INT_HENKAN  &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1  &kp HOME        &none           &kp END      &kp LANG_ZENKAKUHANKAKU
 &trans          &trans              &trans            &trans          &trans          &trans      &trans  &trans                                                       &trans
             >;
