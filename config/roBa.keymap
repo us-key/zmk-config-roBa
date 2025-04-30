@@ -78,7 +78,7 @@
 
         FUNCTION {
             bindings = <
-&kp F1                   &kp F2        &kp F3        &kp F4        &kp F5                                &kp F6             &kp F7         &kp F8        &kp F9            &kp F10
+&kp F1                   &kp F2        &kp F3        &kp F4        &kp F5                                &kp F6             &kp F7         &kp F8        &kp F9            &lt 5 F10
 &mt LEFT_SHIFT NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &trans  &kp NUMBER_6       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
 &mt LCTRL F11            &kp F12       &kp EQUAL     &kp INT_YEN   &kp LEFT_BRACKET  &trans      &trans  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SEMI      &kp SINGLE_QUOTE  &kp INT_RO
 &trans                   &trans        &trans        &trans        &trans            &trans      &trans  &trans                                                            &trans
@@ -87,7 +87,7 @@
 
         NUM {
             bindings = <
-&none           &none               &none             &kp LG(V)       &kp PLUS                            &kp LA(RIGHT)   &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP  &kp DELETE
+&none           &none               &none             &kp LG(V)       &kp PLUS                            &kp LA(RIGHT)   &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP  &lt 5 DELETE
 &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &none             &kp LA(RIGHT)   &kp ASTERISK    &trans      &trans  &kp LA(LEFT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &none
 &kp LCTRL       &kp CAPS            &kp INT_MUHENKAN  &kp INT_HENKAN  &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1  &kp HOME        &none           &kp END      &kp LANG_ZENKAKUHANKAKU
 &trans          &trans              &trans            &trans          &trans          &trans      &trans  &trans                                                       &trans
