@@ -85,7 +85,7 @@
 &kp Q             &kp W    &kp E         &kp R         &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &mt LEFT_SHIFT A  &kp S    &kp D         &kp F         &kp G        &kp LS(LG(S))        &lt_to_layer_0 6 BACKSPACE  &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
 &mt LCTRL Z       &kp X    &kp C         &kp V         &kp B        &kp DEL              &kp BACKSPACE               &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB           &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &mt RCTRL SPACE      &mt RIGHT_SHIFT ENTER       &lt 2 ENTER                             &lt 4 DEL
+&kp TAB           &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &mt RCTRL SPACE      &mt RIGHT_SHIFT ENTER       &lt 2 ENTER                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -122,10 +122,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &to 0
+&ret_kp Q  &ret_kp W  &ret_kp E  &ret_kp R  &ret_kp T                                      &ret_kp Y  &mkp MB4   &trans         &mkp MB5        &ret_kp P
+&ret_kp A  &ret_kp S  &ret_kp D  &ret_kp F  &ret_kp G  &trans           &trans             &ret_kp H  &mkp MB1   &mkp MB3       &mkp MB2        &ret_kp MINUS
+&ret_kp Z  &ret_kp X  &ret_kp C  &ret_kp V  &ret_kp B  &ret_kp DEL      &ret_kp BACKSPACE  &ret_kp N  &ret_kp M  &ret_kp COMMA  &ret_kp PERIOD  &ret_kp SLASH
+&trans     &trans     &trans     &trans     &trans     &trans           &trans             &trans                                               &to 0
             >;
         };
 
