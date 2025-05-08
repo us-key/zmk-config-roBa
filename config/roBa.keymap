@@ -122,10 +122,10 @@
 
         MOUSE {
             bindings = <
-&ret_kp Q  &ret_kp W  &ret_kp E  &ret_kp R  &ret_kp T                                      &ret_kp Y  &mkp MB4   &trans         &mkp MB5        &ret_kp P
-&ret_kp A  &ret_kp S  &ret_kp D  &ret_kp F  &ret_kp G  &trans           &trans             &ret_kp H  &mkp MB1   &mkp MB3       &mkp MB2        &ret_kp MINUS
-&ret_kp Z  &ret_kp X  &ret_kp C  &ret_kp V  &ret_kp B  &ret_kp DEL      &ret_kp BACKSPACE  &ret_kp N  &ret_kp M  &ret_kp COMMA  &ret_kp PERIOD  &ret_kp SLASH
-&trans     &trans     &trans     &trans     &trans     &trans           &trans             &trans                                               &to 0
+&ret_kp Q           &ret_kp W  &ret_kp E  &ret_kp R  &ret_kp T                                      &ret_kp Y  &mkp MB4   &trans         &mkp MB5        &ret_kp P
+&ret_kp LEFT_SHIFT  &ret_kp S  &ret_kp D  &ret_kp F  &ret_kp G  &trans           &trans             &ret_kp H  &mkp MB1   &mkp MB3       &mkp MB2        &ret_kp MINUS
+&ret_kp LCTRL       &ret_kp X  &ret_kp C  &ret_kp V  &ret_kp B  &ret_kp DEL      &ret_kp BACKSPACE  &ret_kp N  &ret_kp M  &ret_kp COMMA  &ret_kp PERIOD  &ret_kp SLASH
+&trans              &trans     &trans     &trans     &trans     &trans           &trans             &trans                                               &to 0
             >;
         };
 
